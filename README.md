@@ -1,13 +1,13 @@
 # HenryP2
 
-##Siniestros Viales CABA - 
+## Siniestros Viales CABA - 
 
 
 Se realizó un análisis sobre los siniestros viales ocurridos en la Ciudad Autónoma de Buenos Aires (CABA) con datos registrados desde el año 2016 hasta el año 2021.
 
 Se tuvieron encuenta diferentes variables que fueron analizadas en profundidad en el EDA y quedan plasmadas en un Dashboard realizado en Power BI. 
 
-###EDA
+### EDA
 
 La base de datos analizada contemplaba dos archivos: "hechos" y "victimas".
 Estos archivos estaban relacionados mediante un ID en común, el cual registra el accidente con un identificador único.
@@ -29,7 +29,7 @@ En el EDA se realizó un análisis profundo sobre las diferentes variables utili
 
 
 
-###DASHBOARD
+### DASHBOARD
 
 Se realizó un Dashboard en PowerBI, el cual contiene visualizaciones gráficas que explican los siniestros a lo largo del tiempo.
 
@@ -43,7 +43,7 @@ Fuente Población en CABA:	https://www.ign.gob.ar/NuestrasActividades/Geografia/
 
 
 
-###CONCLUSIONES
+### CONCLUSIONES
 Se puede concluir que los accidentes en el último semestre de 2021 sí lograron el objetivo propuesto de reducir en un 10% respecto al semestre anterior. La tendencia de la cantidad de victimas en siniestros es decreciente, con lo cual pareciera ser que año a año mejora la situación.
 
 La gran mayoría de las víctimas son motociclistas o peatones, lo que indica la importancia de tener precauciones especiales con este tipo de vehículos y cuidado especial para los peatones en la ciudad.
@@ -53,6 +53,10 @@ Las victimas son de sexo masculino en su gran mayoría. Esto podría deberse a v
 Es de vital importancia tener especial cuidado en las comunas con mayor cantidad de accidentes. Esto puede deberse a mayor tránsito en las zonas correspondientes, o a falta de señalización correcta en las calles por ejemplo. Es un punto clave tener en cuenta esto a la hora de realizar acciones que lleven a mejorar el tránsito en la ciudad y por ende, la calidad de vida de las personas. Las comunas 1,4,8,9 son las que tienen mayor volumen de hechos.
 
 También es importante recalcar que la gran mayoría de los accidentes se dan en avenidas, con lo cual demuestra que es fundamental revisar este tipo de calles para evitar siniestros y lograr disminuir la cantidad de los mismos.
+
+Obs 1. Es importante tener en cuenta que el año 2020 fue la pandemia ocasionada por COVID, donde hubo un período largo de cuarentena obligatoria, lo que llevó a que sea un año muy particular en comparación al resto. Al haber menor movimiento durante el año y liberarse hacia el final, se observa un pico de siniestros a fin de año cuando se pudo circular libremente. 
+
+Obs 2. Si bien en 2021 hubo mayor movimiento, también hubo COVID, por lo que sería importante actualizar los datos para ver si la tendencia es efectivamente decreciente, o si es un sesgo debido a esta situacion en particular.
 
 
 
